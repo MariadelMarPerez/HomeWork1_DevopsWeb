@@ -1,0 +1,100 @@
+body {
+    /*fondo*/
+    background-image: url('src/fondo4.jpg'); 
+    background-color: #121212; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+    max-width: 500px; 
+    width: 90%;
+    text-align: center; 
+}
+
+h1 {
+   color: #000000;      
+    font-size: 28px;     
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify; 
+    margin-bottom: 25px;
+}
+
+.image {
+    width: 300px;           
+    height: 300px;         
+    display: block;         
+    margin: 20px auto;    
+    
+    /*  foto  COMPLETA sin cortes */
+    object-fit: contain;    
+    
+    border: 2px solid #00796b;
+    border-radius: 8px;        
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #00796b; 
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #004d40;
+}
+
+#btnOpciones {
+    background-color: #00796b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    transition: background 0.3s;
+    vertical-align: middle;
+}
+
+#btnOpciones:hover {
+    background-color: #004d40;
+}
+
+
+#contenedorMensaje {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0f2f1; 
+    color: #004d40;           
+    border-radius: 10px;
+    border-left: 5px solid #00796b;
+    font-weight: 500;
+    display: none;            
+}
