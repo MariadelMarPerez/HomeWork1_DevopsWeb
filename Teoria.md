@@ -163,6 +163,7 @@ Cada propiedad forma parte de una declaración de estilo, donde se asigna un val
 3. **Bucle Infinito:** Se debe tener cuidado con los bucles `while` y `for` para asegurar que la condición en algún momento sea falsa y el 
 programa no se bloquee.
 
+***
 10. **¿Por qué es importante usar nombres significativos para variables y métodos?**
     > Es fundamental para la legibilidad y mantenimiento del código. Los nombres descriptivos permiten que otros desarrolladores (o a uno mismo en el futuro) entiender qué hace una función o qué guarda una variable sin necesidad de leer todo el código.
 
