@@ -160,7 +160,9 @@ Cada propiedad forma parte de una declaración de estilo, donde se asigna un val
 >#### Importante:
 1. **Operadores de comparación:** Se utilizan dentro de las condiciones (Ej: `===`, `!==`, `>`, `<`).
 2. **Sentencia `break`:** Es vital en el `switch` para detener la ejecución y salir de la estructura.
-3. **Bucle Infinito:** Se debe tener cuidado con los bucles `while` y `for` para asegurar que la condición en algún momento sea falsa y el programa no se bloquee.
+3. **Bucle Infinito:** Se debe tener cuidado con los bucles `while` y `for` para asegurar que la condición en algún momento sea falsa y el 
+programa no se bloquee.
+
 10. **¿Por qué es importante usar nombres significativos para variables y métodos?**
     > Es fundamental para la legibilidad y mantenimiento del código. Los nombres descriptivos permiten que otros desarrolladores (o a uno mismo en el futuro) entiender qué hace una función o qué guarda una variable sin necesidad de leer todo el código.
 
@@ -177,8 +179,8 @@ Cada propiedad forma parte de una declaración de estilo, donde se asigna un val
 14. **¿Cómo se utiliza el panel "Console" de las herramientas de desarrollo y para qué es útil?**
     > El panel Console  es una ventana de comunicación directa con el navegador que se utiliza para leer los mensajes de error que genera la página, revisar datos específicos usando el comando console.log y escribir código JavaScript para ver resultados al instante, permite a los desarrolladores inspeccionar el estado de las variables en tiempo real y probar soluciones lógicas de forma inmediata sin alterar el código fuente, convirtiéndose en la herramienta principal para identificar fallos y garantizar que la lógica del programa funcione correctamente antes de su despliegue final.
 
-    >Para utilizar la Consola, se debe abrir las herramientas de desarrollo del navegador (normalmente con la tecla F12) y situarnos en la pestaña del mismo nombre. Una vez allí, se puede escribir instrucciones de JavaScript directamente para ver qué sucede en la página o leer los mensajes que el propio código envía mediante el comando console.log.
+    > Para utilizar la Consola, se debe abrir las herramientas de desarrollo del navegador (normalmente con la tecla F12) y situarnos en la pestaña del mismo nombre. Una vez allí, se puede escribir instrucciones de JavaScript directamente para ver qué sucede en la página o leer los mensajes que el propio código envía mediante el comando console.log.
 
 15. **¿Qué información se puede obtener del panel "Network" y por qué es importante?**
->El panel Network se utiliza para monitorear todas las peticiones que hace la página web hacia internet, permitiENDO ver cada archivo que se descarga, como imágenes, fuentes, archivos JavaScript o datos de bases de datos. Es una herramienta fundamental ya que informa cuánto tiempo tarda en cargar cada elemento, si algún archivo falló en descargarse (mostrando un error en rojo) y qué tan pesada es la página en total. Gracias a esta información, un desarrollador puede optimizar la velocidad de carga de la web y asegurarse de que toda la información externa esté llegando correctamente al navegador.
+   >El panel Network se utiliza para monitorear todas las peticiones que hace la página web hacia internet, permitiENDO ver cada archivo que se descarga, como imágenes, fuentes, archivos JavaScript o datos de bases de datos. Es una herramienta fundamental ya que informa cuánto tiempo tarda en cargar cada elemento, si algún archivo falló en descargarse (mostrando un error en rojo) y qué tan pesada es la página en total. Gracias a esta información, un desarrollador puede optimizar la velocidad de carga de la web y asegurarse de que toda la información externa esté llegando correctamente al navegador.
   
